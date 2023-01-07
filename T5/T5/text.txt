@@ -1,0 +1,161 @@
+One of the basic rules concerning programming is that no routine should ever exceed a page. This is accomplished by breaking the program down into modules. Each module is a logical unit and does a specific job. Its size is kept small by calling other modules. Modularity has several advantages. First, it is much easier to debug small routines than large routines. Second, it is easier for several people to work on a modular program simultaneously. Third, a well-written modular program places certain dependencies in only one routine, making changes easier. For instance, if output needs to be written in a certain format, it is certainly important to have one routine to do this. If printing statements are scattered throughout the program, it will take considerably longer to make modifications. The idea that global variables and side effects are bad is directly attributable to the idea that modularity is good.
+
+An abstract data type (ADT) is a set of operations. Abstract data types are mathematical abstractions; nowhere in an ADT's definition is there any mention of how the set of operations is implemented. This can be viewed as an extension of modular design.
+
+Objects such as lists, sets, and graphs, along with their operations, can be viewed as abstract data types, just as integers, reals, and booleans are data types. Integers, reals, and booleans have operations associated with them, and so do abstract data types. For the set ADT, we might have such operations as union, intersection, size, and complement. Alternately, we might only want the two operations union and find, which would define a different ADT on the set.
+
+The basic idea is that the implementation of these operations is written once in the program, and any other part of the program that needs to perform an operation on the ADT can do so by calling the appropriate function. If for some reason 
+One of the basic rules concerning programming is that no routine should ever exceed a page. This is accomplished by breaking the program down into modules. Each module is a logical unit and does a specific job. Its size is kept small by calling other modules. Modularity has several advantages. First, it is much easier to debug small routines than large routines. Second, it is easier for several people to work on a modular program simultaneously. Third, a well-written modular program places certain dependencies in only one routine, making changes easier. For instance, if output needs to be written in a certain format, it is certainly important to have one routine to do this. If printing statements are scattered throughout the program, it will take considerably longer to make modifications. The idea that global variables and side effects are bad is directly attributable to the idea that modularity is good.
+
+
+Contact tracing is gaining its importance in controlling the spread
+of COVID-19. However, the enormous volume of the frequently
+sampled tracing data brings major challenges for real-time processing. In this paper, we propose a GPU-based real-time contact tracing
+system based on spatial proximity queries with temporal constraints
+using location data. We provide dynamic indexing of moving objects using an adaptive partitioning schema on GPU with extremely
+low overhead. Our system optimizes the retrieval of contacted pairs
+to match both the requirements of contact tracing scenarios and
+GPU centered parallelism. We propose an efficient contacts evaluation mechanism to keep only the spatially and temporally valid
+contacts. Our experiments demonstrate that the system can achieve
+sub-second level response for large-scale contact tracing of tens of
+millions of people, with two magnitudes of performance boost over
+CPU based approach.
+
+Contact tracing is gaining its importance in controlling the spread
+of COVID-19. However, the enormous volume of the frequently
+sampled tracing data brings major challenges for real-time processing. In this paper, we propose a GPU-based real-time contact tracing
+system based on spatial proximity queries with temporal constraints
+using location data. We provide dynamic indexing of moving objects using an adaptive partitioning schema on GPU with extremely
+low overhead. Our system optimizes the retrieval of contacted pairs
+to match both the requirements of contact tracing scenarios and
+GPU centered parallelism. We propose an efficient contacts evaluation mechanism to keep only the spatially and temporally valid
+contacts. Our experiments demonstrate that the system can achieve
+sub-second level response for large-scale contact tracing of tens of
+millions of people, with two magnitudes of performance boost over
+CPU based approach.
+
+Chemical materials are useful but sometimes hazardous, which
+requires strict regulation from the government. However, due to
+the potential economic benefits, many illegal hazardous chemical
+facilities are running underground, which poses a significant public safety threat. However, the traditional solutions, e.g., on-field
+screening and the anonymous tip-offs, involve a lot of human efforts.
+In this paper, we propose a ubiquitous approach called ICFinder to
+detecting illegal chemical facilities with chemical transportation
+trajectories. We first generate candidate locations by clustering
+stay points extracted from trajectories, and filter out known locations. Then, we rank those locations in suspicion order by modeling
+whether it has the loading/unloading events. ICFinder is evaluated
+over the real-world dataset from Nantong in China, and the deployed system identified 20 illegal chemical facilities in 3 months.
+
+Taking into account the availability of the historical GPS trajectories of drivers, given a new GPS trajectory, Driver mobility fingerprint (DMF) identification aims at (i) determining whether a
+generated trajectory belongs to a potential driver, and (ii) detecting
+if a trajectory is likely anomalous based on a driver¡¯s historical
+data. Prior studies often consider hand-crafted feature engineering
+techniques to extract DMFs while contextual factors like weather
+and points-of-interest (POIs) are hardly accounted for, which might
+not achieve satisfactory identification results. To address above, we
+propose RM-Drive, a novel framework based on reinforced feature
+extraction and multi-resolution learning. Specifically, we first employ spatio-temporal inverse reinforcement learning (ST-IRL) to
+extract DMFs from historical trajectories. Then, we generate trajectory embeddings by fusing the extracted DMFs and the contextual
+factors using the multi-resolution trajectory embedding network
+(MTE-Net). Our proposed MTE-Net consists of multi-resolution convolutional neural network (MR-CNN), which enables the model to
+learn the multi-resolution features of the DMFs. Finally, we leverage
+the trajectory embeddings for the driver classification and anomaly
+detection. We have conducted extensive evaluation studies upon
+RM-Drive with two real-world datasets, and our results demonstrate the performance improvements from the state-of-the-art of
+driver classification and anomaly detection respectively by 21%
+and 11% on average based on several evaluation metrics, including
+accuracy, precision, and recall, etc.
+
+The Brownian bridge is a method for probabilistically interpolating
+the location of a moving person, animal, or object between two
+measured points. This type of probabilistic interpolation is useful,
+because it represents the uncertainty of the interpolated points.
+It can be used to infer the probability of having visited a certain
+location, including possible exposure to disease. In the class of probabilistic interpolators, the Brownian bridge is attractive, because
+it has only a single adjustable parameter, the diffusion coefficient.
+This paper investigates the suitability of the Brownian bridge for
+interpolating human locations using mobility data from over 12
+million people. One section looks at the consistency of the diffusion
+coefficient from person to person. As part of this, the paper presents,
+for the first time, a closed form solution for the maximum likelihood estimate of this parameter. The paper also presents statistical
+tests aimed at evaluating the accuracy of the Brownian bridge for
+interpolating human location.
+
+Generating alternative routes in road networks is an application of
+significant interest for online navigation systems. A high quality
+set of diverse alternate routes offers two functionalities - a) support
+multiple (unknown) preferences that the user may have; and b) robust to changes in network conditions. We address the latter in this
+paper. The main techniques that produce alternative routes in road
+networks are the penalty and the plateau methods, with the former
+providing high quality results but being too slow for practical use
+and the latter being fast but suffering in terms of quality. In this
+work we propose a novel method to produce alternative routes that
+is fundamentally different from the aforementioned approaches.
+Our algorithm borrows concepts from electrical flows and their
+decompositions. We evaluate our method against the penalty and
+plateau methods, showing that it is as fast as the plateau method
+while also recovering much of the headroom towards the quality of
+the penalty method. The metrics we use to evaluate performance
+include the stretch (the average cost of the routes), the diversity, and
+the robustness (the connectivity between the origin and destination)
+of the induced set of routes.
+
+Traditionally, clustering of multivariate data aims at grouping objects described with multiple heterogeneous attributes based on a
+suitable similarity (conversely, distance) function. One of the main
+challenges is due to the fact that it is not straightforward to directly
+apply mathematical operations (e.g., sum, average) to the feature
+values, as they stem from heterogeneous contexts.
+In this work we take the challenge a step further and tackle
+the problem of clustering multivariate datasets based on jointly
+considering: (a) similarity among a subset of the attributes; and
+(b) distance-based diversity among another subset of the attributes.
+Specifically, we focus on astrophysics data, where the snapshots
+of the stellar evolution for different stars contain over 40 distinct
+attributes corresponding to various physical and categorical (e.g.,
+¡®black hole¡¯) attributes. We present CSD-CAMD ¨C a prototype
+system for Coupling Similarity and Diversity for Clustering Astrophysics Multivariate Datasets. It provides a flexibility for the
+users to select their preferred subsets of attributes; assign weight
+(to reflect their relative importance on the clustering); and select
+whether the impact should be in terms of proximity or distance.
+In addition, CSD-CAMD allows for selecting a clustring algorithm
+and enables visualization of the outcome of clustering.
+
+
+Maps Auto-complete is an essential service complementing the
+functionality of map search engines. It allows users to formulate
+their queries faster and also provides better query formatting, which
+increases the chance of returning a relevant search result.
+Intuitively, the engagement with the service depends primarily on the quality of the suggestions it recommends. We notice,
+however, an interesting phenomenon that has not received much
+attention previously - often Auto-complete correctly identifies the
+most relevant suggestion, yet users do not click on it right away,
+if at all. Here we reason over the causes for the phenomenon, provide empirical evidence, and then propose a mitigation based on
+query expansion. Two models are proposed which generate word
+or phrase query expansions, allowing users to reach faster a ¡®mental pause¡¯ during which they are more likely to engage with the
+Auto-complete suggestions. Evaluation of the models is presented.
+
+
+
+Traffic-related forecasting plays a critical role in determining 
+transportation policy, unlike traditional approaches, which can 
+only make decisions based on statistical results or historical 
+experience. Through machine learning, we are able to capture the 
+potential interactions between urban dynamics and find their 
+mutual interactions in a spatial context. However, despite a 
+plethora of traffic-related studies, few works have explored 
+predicting the impact of congestion. Therefore, this paper focuses 
+on predicting how a car accident leads to traffic congestion, 
+especially the length of time it takes for the congestion to occur. 
+Accordingly, we propose a novel model named Dual-Attention 
+Multi-Scale Graph Convolutional Networks (DAMGNet) to 
+address this issue. In this proposed model, heterogeneous data 
+such as accident information, urban dynamics, and various 
+highway network characteristics are considered and combined. 
+Next, the context encoder encodes the accident data, and the 
+spatial encoder captures the hidden features between multi-scale 
+Graph Convolutional Networks (GCNs). With our designed dual 
+attention mechanism, the DAMGNet model is able to effectively 
+learn the correlation between features. The evaluations conducted 
+on a real-world dataset prove that our DAMGNet has a significant 
+improvement in RMSE and MAE over other comparative methods. 
+

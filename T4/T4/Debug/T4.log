@@ -1,0 +1,6 @@
+﻿  T4.cpp
+c:\users\19089\desktop\data structure\design\easy\t4\t4\t4.cpp(120): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\19089\desktop\data structure\design\easy\t4\t4\t4.cpp(276): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\19089\desktop\data structure\design\easy\t4\t4\t4.cpp(281): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+c:\users\19089\desktop\data structure\design\easy\t4\t4\t4.cpp(296): warning C4018: “<”: 有符号/无符号不匹配
+  T4.vcxproj -> C:\Users\19089\Desktop\Data Structure\Design\Easy\T4\Debug\T4.exe
